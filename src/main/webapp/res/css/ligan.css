@@ -1,0 +1,507 @@
+.ligan-history-grid {
+	float: left
+}
+
+.ligan-grid {
+	width: 970px;
+	float: left
+}
+
+.ligan-history-grid {
+	margin-left: 20px;
+}
+
+.validation-tip {
+	margin-left: 300px;
+	margin-top: -30px;
+	color: #fff;
+}
+
+.validation-tip li {
+	font-weight: bold;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.ligan-history a,.ligan a {
+	text-decoration: underline;
+	color: #00c
+}
+
+.simple_overlay { /* must be initially hidden */
+	display: none;
+	/* place overlay on top of other elements */
+	z-index: 10000;
+	/* styling */
+	background-color: #fff;
+	width: 675px;
+	height: 770px;
+	border: 1px solid #666;
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow: 0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;
+}
+
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+	background-image: url(./images/close.png);
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+}
+
+.details {
+	font-size: 11px;
+	color: #fff;
+	width: 640px;
+	height: 560px;
+	margin: 10px;
+}
+
+.details h3 {
+	color: #aba;
+	font-size: 15px;
+	margin: 0 0 -10px 0;
+	height: 50px;
+}
+
+.simple_overlay #fields label {
+	width: 110px;
+	float: left;
+	color: #333;
+}
+
+.simple_overlay #fields2 label {
+	width: 110px;
+	float: left;
+	color: #333;
+}
+
+.simple_overlay #fields {
+	width: 300px;
+	float: left;
+}
+
+.simple_overlay #fields2 {
+	width: 320px;
+	float: left;
+}
+
+.simple_overlay #fields input,.simple_overlay #fields2 input {
+	float: left;
+}
+
+#mies1 #fields #yangzhaodiantype {
+	float: left;
+	width: 144px;
+}
+.simple_overlay #fields p,.simple_overlay #fields2 p {
+	float: left;
+}
+
+.simple_overlay #img {
+	margin: 20px;
+	float: left;
+	width: 230px;
+}
+
+.simple_overlay #img-btn {
+	float: left;
+	margin: 0 20px;
+	width: 350px;
+}
+
+.simple_overlay #img img {
+	height: 150px;
+}
+
+.simple_overlay #digtimepanel,.simple_overlay #finishdatepanel,.simple_overlay #lastcaredatepanel
+	{
+	float: left;
+	width: 630;
+	margin-top: 20px;
+}
+
+.simple_overlay #digtimepanel label,.simple_overlay #finishdatepanel label,.simple_overlay #lastcaredatepanel label,.simple_overlay label[for='adstart'], .simple_overlay label[for='adend']
+	{
+	float: left;
+	width: 100px;
+	color: #333;
+	margin-left: 20px;
+}
+
+#submit,#modify-ligan,#submitticket {
+	float: left;
+	width: 30px;
+	margin-right: 20px;
+	background: #D14836;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	width: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#tickethistory {
+	color: #333;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.progress {
+	float: left;
+	margin-top: 20px;
+	display: none;
+	color: #333;
+}
+
+.simple_overlay_approve { /* must be initially hidden */
+	display: none;
+	/* place overlay on top of other elements */
+	z-index: 10000;
+	/* styling */
+	background-color: #fff;
+	width: 350px;
+	min-height: 200px;
+	border: 1px solid #666;
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow: 0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;
+}
+
+/* close button positioned on upper right corner */
+.simple_overlay_approve .close {
+	background-image: url(./images/close.png);
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+}
+
+.simple_overlay_approve .details {
+	width: 300px;
+	height: 200px
+}
+
+.simple_overlay_approve .details label {
+	color: #333;
+	float: left;
+	width: 70px;
+}
+
+.simple_overlay_approve .details input {
+	float: left;
+}
+
+.simple_overlay_approve .details p {
+	float: left;
+	width: 300px;
+	height: 50px;
+}
+
+.simple_overlay_approve .progress {
+	margin: 0;
+}
+
+.simple_overlay_busticket { /* must be initially hidden */
+	display: none;
+	/* place overlay on top of other elements */
+	z-index: 10000;
+	/* styling */
+	background-color: #fff;
+	width: 950px;
+	min-height: 300px;
+	border: 1px solid #666;
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow: 0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;
+}
+
+/* close button positioned on upper right corner */
+.simple_overlay_busticket .close {
+	background-image: url(./images/close.png);
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+}
+
+.simple_overlay_busticket .details {
+	width: 900px;
+	height: 300px;
+}
+
+.simple_overlay_busticket .details label {
+	color: #333;
+	float: left;
+	width: 70px;
+}
+
+.simple_overlay_busticket .details input {
+	float: left;
+	width: 115px;
+	margin-left: 10px;
+	height: 22px
+}
+
+.simple_overlay_busticket .details p {
+	float: left;
+	width: 300px;
+	height: 50px;
+}
+
+.simple_overlay_busticket .progress {
+	margin-top: 20px;
+}
+
+.simple_overlay_busticket .tabletic select,.simple_overlay_busticket .tableair select
+	{
+	float: left;
+	width: 85px;
+	margin-left: 10px;
+	height: 22px;
+}
+
+.simple_overlay_busticket #multi_ticket_panel {
+	height: 100px;
+	margin: 10px 0 0 10px;
+	color: #333;
+	width: 400px;
+	float: left
+}
+
+.simple_overlay_busticket .tableair img.ticketimg {
+	height: 120px;
+	margin: 10px 0 0 10px;
+	width: 200px;
+}
+
+.busline {
+	float: left;
+	margin-top: 6px;
+}
+
+.buslinelink {
+	text-decoration: none;
+}
+
+.simple_overlay_line {
+	display: none;
+	/* place overlay on top of other elements */
+	z-index: 10000;
+	/* styling */
+	background-color: #fff;
+	width: 1050px;
+	height: 850px;
+	border: 1px solid #666;
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow: 0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;
+}
+
+/* close button positioned on upper right corner */
+.simple_overlay_line .close {
+	background-image: url(./images/close.png);
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+}
+
+.simple_overlay_line #multi {
+	float: right;
+}
+
+.simple_overlay_line .details {
+	width: 1020px;
+}
+
+.simple_overlay_line input {
+	line-height: 12px;
+	font-size: 10px;
+	height: 20px;
+	margin: 2px
+}
+
+.simple_overlay_line .tabletic select,.simple_overlay_line .tableair select
+	{
+	float: left;
+	width: 85px;
+	margin: 2px;
+	height: 20px;
+}
+
+.simple_overlay_line .checklink,.simple_overlay_line .viewhistory {
+	text-decoration: none;
+}
+
+.simple_overlay_line .check {
+	margin-left: 10px;
+	width: 16px;
+}
+
+.simple_overlay_line #norm,.simple_overlay_line #air {
+	width: 300px;
+	height: 300px;
+	display: none
+}
+
+.simple_overlay_line #multi img.ticimg {
+	height: 160px;
+	margin-bottom: 10px;
+}
+
+.table {
+	float: left;
+	overflow: scroll;
+	height: 600px;
+	width: 680px;
+}
+
+#old {
+	float: left;
+	width: 450px;
+	color: #333
+}
+
+#old label {
+	float: left;
+	width: 200px
+}
+#old input {
+	float: left;
+	width: 144px
+}
+
+#mies5 #old p,#mies4 #old p {
+	float: left;
+	width: 350px;
+}
+
+#mies6 #old p {
+	float: left;
+	width: 400px;
+}
+
+#mies7 #old p {
+	float: left;
+	width: 400px;
+}
+
+#mies6 #old p input,#mies6 #old p select {
+	float: left;
+	width: 150px;
+}
+
+#mies7 #old p input,#mies7 #old p select {
+	float: left;
+	width: 150px;
+}
+
+#old .text-highlight {
+	font-weight: bold;
+	color: #DD4B39;
+}
+
+#old .bg-highlight {
+	background: #FFF8E7;
+	border: 1px solid #DDD;
+}
+
+#cur {
+	float: left;
+	width: 450px;
+	color: #333
+}
+
+#cur label {
+	float: left;
+	width: 200px
+}
+#cur input {
+	float: left;
+	width: 144px
+}
+
+#mies4 #cur p,#mies5 #cur p {
+	float: left;
+	width: 350px;
+}
+
+#mies6 #cur p {
+	float: left;
+	width: 400px;
+}
+
+#mies7 #cur p {
+	float: left;
+	width: 400px;
+}
+
+#mies6 #cur p input,#mies6 #cur p select {
+	float: left;
+	width: 150px;
+}
+
+#mies7 #cur p input,#mies7 #cur p select {
+	float: left;
+	width: 150px;
+}
+
+#cur .text-highlight {
+	font-weight: bold;
+	color: #DD4B39;
+}
+
+#cur .bg-highlight {
+	background: #ECF1EF;
+	border: 1px solid #DDD;
+}
+
+#mies4 #img,#mies5 #img,#mies4 #himg,#mies5 #himg {
+	float: left;
+	margin: 20px;
+}
+
+#mies4 #img img,#mies5 #img img,#mies4 #himg img,#mies5 #himg img {
+	width: 200px;
+}
+
+.stophistory-grid {
+	float: left;
+	margin: 20px;
+	width: 600px;
+}
+
+.tickethistory-grid {
+	float: left;
+	margin: 20px;
+	width: 600px;
+}
+
+.stophistory {
+	float: left;
+	width: 600px;
+}
+
+#mies5 a,#mies3 a,#mies4 a,#mies6 a,#mies7 a {
+	text-decoration: underline;
+	color: #00c;
+}
+
+#mies5 #img-air img,#mies5 #img-norm img,#mies3 #img-air img,#mies3 #img-norm img,#mies4 #img-air img,#mies4 #img-norm img,#mies6 #img-air img,#mies6 #img-norm img,#mies6 #img img,#mies6 #himg img,#mies7 #img-air img,#mies7 #img-norm img
+	{
+	width: 200px;
+	margin: 10px 10px 10px 0;
+}

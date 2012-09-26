@@ -1,0 +1,20 @@
+.ligan-search-fieldset {border: 1px solid #ccc;border-radius: 4px; float:left; height:710px; width:350px; margin:0 20px 10px 20px;}
+.ligan-search-fieldset legend {margin-left:10px;}
+.ligan-search-fieldset label, .ligan-search-fieldset input {float:left}
+.ligan-search-fieldset label {width:70px;margin:10px;padding-left:30px}
+.ligan-search-fieldset .input {float:left;width:350xp;}
+.ligan-search-fieldset input {width:150px;margin:15px 10px 10px 10px; border:1px solid #bbb;box-shadow:2px 2px 5px #ccc;border-radius:2px;padding-left:4px;line-height:14px;}
+.nanhuiting-search-fieldset {border: 1px solid #ccc;border-radius: 4px; float:left; height:1120px; width:350px; margin:0 20px 10px 20px;}
+.nanhuiting-search-fieldset legend {margin-left:10px;}
+.nanhuiting-search-fieldset label, .ligan-search-fieldset input {float:left}
+.nanhuiting-search-fieldset label {width:80px;margin:10px;padding-left:30px}
+.nanhuiting-search-fieldset .input {float:left;width:350xp;border: none;box-shadow: none;}
+.nanhuiting-search-fieldset input, .nanhuiting-search-fieldset select {width:150px;margin:15px 10px 10px 10px; border:1px solid #bbb;box-shadow:2px 2px 5px #ccc;border-radius:2px;padding-left:4px;line-height:14px;}
+.yangzhaodian-search-fieldset {border: 1px solid #ccc;border-radius: 4px; float:left; height:850px; width:350px; margin:0 20px 10px 20px;}
+.yangzhaodian-search-fieldset legend {margin-left:10px;}
+.yangzhaodian-search-fieldset label, .ligan-search-fieldset input {float:left}
+.yangzhaodian-search-fieldset label {width:80px;margin:10px;padding-left:30px}
+.yangzhaodian-search-fieldset .input {float:left;width:350xp;border: none;box-shadow: none;}
+.yangzhaodian-search-fieldset input, .yangzhaodian-search-fieldset select {width:150px;margin:15px 10px 10px 10px; border:1px solid #bbb;box-shadow:2px 2px 5px #ccc;border-radius:2px;padding-left:4px;line-height:14px;}
+.submit {background: url("images/tab-default.png") repeat-x scroll 0 0 transparent;border:1px solid #a1a1a1;border-radius:2px;float:left;margin:5px 0 0 210px;padding:0 10px}
+.submit:hover {cursor:pointer}
